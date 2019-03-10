@@ -8,13 +8,12 @@ If you get an error asking who you are and configure your email and user name th
 and git config -- local user.name"...."
 6. git remote add origin (add your url, https:/.....) This will give your url an origin name so you can use it everytime as named origin rather than typing the whole url everytime.
 7. git push origin master. - this will take you to the github login page, so login there and this should push your file to the github server
+
 If you cannot see your file on github then commit again using command git commit -m "added steps(your relevant message"
 then use command git push origin master.
 This should then push your file to the github browser.
 
 After you have done further changes to your exsisting file then follow the below steps to reconfigure and push your file to github.
-1. git config --local user.email
-2. git config --local user.name
-3. git add .
-4. git commit -m "updated steps"
-5. git push origin master
+1. git add .
+2. git commit -m "updated steps"
+3. git push origin master
