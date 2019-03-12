@@ -1,6 +1,6 @@
 1. git clone url (this will clone the project from cloud to your local machine)
 2. git status (this should show you the changes made on your local repository)
-3. git add (.) will add all the files you want to include to chance from unstaged step to staged step
+3. git add (.) will add all the files you want to include to change from unstaged step to staged step
 4. git status (this is to ensure that the new file has been added successfully)
 5. git commit -m "enter your message"
 If you get an error asking who you are and configure your email and user name then follow the below step.
