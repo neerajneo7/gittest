@@ -6,6 +6,8 @@
 If you get an error asking who you are and configure your email and user name then follow the below step.
 - - If your local or global email and user name is not created then create the link using git config -- local user.email"..."
 and git config -- local user.name"...."
+If you get an error asking you to enter and configure your global email and username then follow the same steps as the local username and email
+
 6. git remote add origin (add your url, https:/.....) This will give your url an origin name so you can use it everytime as named origin rather than typing the whole url everytime.
 7. git push origin master. - this will take you to the github login page, so login there and this should push your file to the github server
 
